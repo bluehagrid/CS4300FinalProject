@@ -18,6 +18,8 @@
 		3374DA3E244786D4003BD465 /* CS4300FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA3D244786D4003BD465 /* CS4300FinalProjectUITests.swift */; };
 		3374DA4C2447881E003BD465 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA4B2447881E003BD465 /* GameViewController.swift */; };
 		3374DA4E24478AC6003BD465 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA4D24478AC6003BD465 /* Card.swift */; };
+		3374DA5024479076003BD465 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA4F24479076003BD465 /* Player.swift */; };
+		3374DA522447915F003BD465 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA512447915F003BD465 /* Enemy.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		3374DA3F244786D4003BD465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3374DA4B2447881E003BD465 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		3374DA4D24478AC6003BD465 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
+		3374DA4F24479076003BD465 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		3374DA512447915F003BD465 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +114,8 @@
 				3374DA1C244786D3003BD465 /* ViewController.swift */,
 				3374DA1E244786D3003BD465 /* Main.storyboard */,
 				3374DA4D24478AC6003BD465 /* Card.swift */,
+				3374DA4F24479076003BD465 /* Player.swift */,
+				3374DA512447915F003BD465 /* Enemy.swift */,
 				3374DA4B2447881E003BD465 /* GameViewController.swift */,
 				3374DA24244786D4003BD465 /* Assets.xcassets */,
 				3374DA26244786D4003BD465 /* LaunchScreen.storyboard */,
@@ -272,6 +278,8 @@
 				3374DA4E24478AC6003BD465 /* Card.swift in Sources */,
 				3374DA1D244786D3003BD465 /* ViewController.swift in Sources */,
 				3374DA23244786D3003BD465 /* CS4300FinalProject.xcdatamodeld in Sources */,
+				3374DA522447915F003BD465 /* Enemy.swift in Sources */,
+				3374DA5024479076003BD465 /* Player.swift in Sources */,
 				3374DA19244786D3003BD465 /* AppDelegate.swift in Sources */,
 				3374DA1B244786D3003BD465 /* SceneDelegate.swift in Sources */,
 			);
