@@ -17,14 +17,8 @@
 		3374DA33244786D4003BD465 /* CS4300FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA32244786D4003BD465 /* CS4300FinalProjectTests.swift */; };
 		3374DA3E244786D4003BD465 /* CS4300FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA3D244786D4003BD465 /* CS4300FinalProjectUITests.swift */; };
 		3374DA4C2447881E003BD465 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA4B2447881E003BD465 /* GameViewController.swift */; };
-		3374DA4E24478AC6003BD465 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA4D24478AC6003BD465 /* Card.swift */; };
-		3374DA5024479076003BD465 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA4F24479076003BD465 /* Player.swift */; };
-		3374DA522447915F003BD465 /* Enemy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA512447915F003BD465 /* Enemy.swift */; };
-/* End PBXBuildFile section */
-
-/* Begin PBXContainerItemProxy section */
-		3374DA2F244786D4003BD465 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
+		F492DD4E24478AC00000493D /* HandOfCardsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F492DD4D24478AC00000493D /* HandOfCardsViewController.swift */; };
+		F492DD50244791A40000493D /* CardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F492DD4F244791A40000493D /* CardViewController.swift */; };
 			containerPortal = 3374DA0D244786D3003BD465 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3374DA14244786D3003BD465;
@@ -61,9 +55,8 @@
 		3374DA512447915F003BD465 /* Enemy.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enemy.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
-/* Begin PBXFrameworksBuildPhase section */
-		3374DA12244786D3003BD465 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
+		F492DD4D24478AC00000493D /* HandOfCardsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandOfCardsViewController.swift; sourceTree = "<group>"; };
+		F492DD4F244791A40000493D /* CardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardViewController.swift; sourceTree = "<group>"; };
 			buildActionMask = 2147483647;
 			files = (
 			);
@@ -118,9 +111,8 @@
 				3374DA512447915F003BD465 /* Enemy.swift */,
 				3374DA4B2447881E003BD465 /* GameViewController.swift */,
 				3374DA24244786D4003BD465 /* Assets.xcassets */,
-				3374DA26244786D4003BD465 /* LaunchScreen.storyboard */,
-				3374DA29244786D4003BD465 /* Info.plist */,
-				3374DA21244786D3003BD465 /* CS4300FinalProject.xcdatamodeld */,
+				F492DD4F244791A40000493D /* CardViewController.swift */,
+				F492DD4D24478AC00000493D /* HandOfCardsViewController.swift */,
 			);
 			path = CS4300FinalProject;
 			sourceTree = "<group>";
@@ -277,14 +269,13 @@
 				3374DA4C2447881E003BD465 /* GameViewController.swift in Sources */,
 				3374DA4E24478AC6003BD465 /* Card.swift in Sources */,
 				3374DA1D244786D3003BD465 /* ViewController.swift in Sources */,
+				F492DD4E24478AC00000493D /* HandOfCardsViewController.swift in Sources */,
 				3374DA23244786D3003BD465 /* CS4300FinalProject.xcdatamodeld in Sources */,
 				3374DA522447915F003BD465 /* Enemy.swift in Sources */,
-				3374DA5024479076003BD465 /* Player.swift in Sources */,
+				F492DD50244791A40000493D /* CardViewController.swift in Sources */,
 				3374DA19244786D3003BD465 /* AppDelegate.swift in Sources */,
-				3374DA1B244786D3003BD465 /* SceneDelegate.swift in Sources */,
+				F492DD4E24478AC00000493D /* HandOfCardsViewController.swift in Sources */,
 			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		3374DA2A244786D4003BD465 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
