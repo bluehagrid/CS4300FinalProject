@@ -17,6 +17,7 @@
 		3374DA33244786D4003BD465 /* CS4300FinalProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA32244786D4003BD465 /* CS4300FinalProjectTests.swift */; };
 		3374DA3E244786D4003BD465 /* CS4300FinalProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA3D244786D4003BD465 /* CS4300FinalProjectUITests.swift */; };
 		3374DA4C2447881E003BD465 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA4B2447881E003BD465 /* GameViewController.swift */; };
+		3374DA4E24478AC6003BD465 /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3374DA4D24478AC6003BD465 /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		3374DA3D244786D4003BD465 /* CS4300FinalProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CS4300FinalProjectUITests.swift; sourceTree = "<group>"; };
 		3374DA3F244786D4003BD465 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3374DA4B2447881E003BD465 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		3374DA4D24478AC6003BD465 /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -107,6 +109,7 @@
 				3374DA1A244786D3003BD465 /* SceneDelegate.swift */,
 				3374DA1C244786D3003BD465 /* ViewController.swift */,
 				3374DA1E244786D3003BD465 /* Main.storyboard */,
+				3374DA4D24478AC6003BD465 /* Card.swift */,
 				3374DA4B2447881E003BD465 /* GameViewController.swift */,
 				3374DA24244786D4003BD465 /* Assets.xcassets */,
 				3374DA26244786D4003BD465 /* LaunchScreen.storyboard */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3374DA4C2447881E003BD465 /* GameViewController.swift in Sources */,
+				3374DA4E24478AC6003BD465 /* Card.swift in Sources */,
 				3374DA1D244786D3003BD465 /* ViewController.swift in Sources */,
 				3374DA23244786D3003BD465 /* CS4300FinalProject.xcdatamodeld in Sources */,
 				3374DA19244786D3003BD465 /* AppDelegate.swift in Sources */,
